@@ -3,7 +3,11 @@
 You will find in this repository a more complete version of the macros/webbots
 I've used during my talk.
 
-* **iMacros**: Auto-visit Linkedin profiles.
-* **CasperJS**: Retrieve a list of users who starred a repository on Github.
+* [x] **iMacros**: Auto-visit Linkedin profiles.
+* [ ] **CasperJS**: Retrieve the list of stargazers for a repository on Github.
+
+**Note**: This was of course just an example to show you how easy it is to build
+webbots with CasperJS. The ideal solution would have been to use the official
+Github API.
 
 You can find and browse the keynote [here](http://www.slideshare.net/gentlenode).
