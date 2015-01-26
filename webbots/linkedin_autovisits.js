@@ -1,6 +1,6 @@
-// Auto-visit profiles on Linkedin
+// Auto-visit profiles on Linkedin with iMacros
 // Configure your linkedin credentials, the group and your proxy if needed.
-// To learn more about iMacro: http://bit.ly/1CImBoM
+// To learn more about iMacros: http://bit.ly/1CImBoM
 
 
 // 1. Variables Initialization
