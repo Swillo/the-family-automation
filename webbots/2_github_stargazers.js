@@ -1,6 +1,6 @@
 // Retrieve all users who starred a repository on github with CasperJS
 // Configure the repository url below
-// Run this bot with: casperjs --ssl-protocol=any github_stargazers.js
+// Run this bot with: casperjs --ssl-protocol=any 2_github_stargazers.js
 // Check our awesome CasperJS cheatsheet: http://bit.ly/phantom-cheatsheet
 
 
