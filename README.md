@@ -6,8 +6,6 @@ I've used during my talk.
 * [x] **iMacros**: Auto-visit Linkedin profiles.
 * [x] **CasperJS**: Retrieve the list of stargazers and their profile information (password ; website) for a repository on Github. (the example only shows what you can do with the first page)
 
-**Note**: This was of course just an example to show you how easy it is to build
-webbots with CasperJS. The ideal solution would have been to use the official
-Github API.
+**Note**: This was of course just an example to show you how easy it is to build webbots with CasperJS. You could for instance use the official Github API to retrieve the whole list of stargazers.
 
 You can find and browse the keynote [here](http://www.slideshare.net/gentlenode).
