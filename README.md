@@ -1,5 +1,7 @@
 # The Family - How to Automate Your Startup
 
+[Watch this Workshop on YouTube](https://www.youtube.com/watch?v=nXGwKojredU).
+
 You will find in this repository a more complete version of the macros/webbots
 I've used during my talk.
 
