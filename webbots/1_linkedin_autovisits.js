@@ -73,7 +73,7 @@ macro += 'URL GOTO=' + linkedinGroup + '\n';
 for (i = 2; i <= 25; i++) {
 
   for (j = 1; j <= 20; j++) {
-    macro += 'EVENT TYPE=CLICK SELECTOR="HTML>BODY>DIV:nth-of-type(4)>DIV:nth-of-type(3)>DIV:nth-of-type(2)>DIV>UL>LI:nth-of-type(' + j + ')>SPAN>STRONG>A>IMG" BUTTON=0 MODIFIERS="meta"' + '\n';
+    macro += 'EVENT TYPE=CLICK SELECTOR="#member-list>LI:nth-of-type(' + j + ')>SPAN>STRONG>A>IMG" BUTTON=0 MODIFIERS="meta"' + '\n';
     macro += 'WAIT SECONDS=2' + '\n';
   }
 
