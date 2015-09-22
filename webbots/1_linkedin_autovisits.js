@@ -54,13 +54,14 @@ macro += 'WAIT SECONDS=1' + '\n';
 
 macro += 'URL GOTO=https://www.linkedin.com/' + '\n';
 
-macro += 'TAG POS=1 TYPE=INPUT:TEXT FORM=NAME:login ATTR=NAME:session_key CONTENT=' + linkedinEmail + '\n';
+macro += 'EVENTS TYPE=KEYPRESS SELECTOR="#login-email" CHARS=' + linkedinEmail + '\n';
 
-macro += 'TAG POS=1 TYPE=INPUT:PASSWORD FORM=NAME:login ATTR=NAME:session_password CONTENT=' + linkedinPassword + '\n';
+macro += 'EVENTS TYPE=KEYPRESS SELECTOR="#login-password" CHARS=' + linkedinPassword + '\n';
 
 macro += 'WAIT SECONDS=2' + '\n';
 
-macro += 'TAG POS=1 TYPE=INPUT:SUBMIT FORM=NAME:login ATTR=NAME:signin' + '\n';
+macro += 'EVENT TYPE=CLICK SELECTOR="#pagekey-uno-reg-guest-home>DIV>DIV>FORM>INPUT:nth-of-type(5)" BUTTON=0';
+// Part 4. works when nothing else exept Part 6. is after :-/
 
 
 // 5. Auto-Visit & Close Profiles
